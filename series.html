@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quizz Trivia - Séries</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/global/global.css">
+    <link rel="stylesheet" href="css/index/index.css">
+
+    <script>
+        function questão1() {
+            alert('A resposta certa é Eleven');
+        }
+    </script>
+
+    <script>
+        function questão2() {
+            alert('A resposta certa é Robin');
+        }
+    </script>
+
+    <script>
+        function questão3() {
+            alert('A resposta certa é Professor');
+        }
+    </script>
+</head>
+
+<body>
+    <main id="series">
+        <h1 id="nome_Storage"></h1>
+        <h2 class="conhecimento_title">Séries</h2>
+        <div>
+            <ul class="list_questions">
+                <li>
+                    <div class="card">
+                        <section class="series">
+                            <h1>Questão 1:</h1>
+                            <span>Qual o nome da personagem princial de <strong>"Stranger Things"</strong>?</strong></span>
+
+                            <div class="list_options">
+                                <ul class="options">
+                                    <li><input type="radio" value="Suelen" /> Suelen</li>
+                                    <li><input type="radio" value="Eleven" /> Eleven</li>
+                                    <li><input type="radio" value="Emanuele" /> Emanuele</li>
+                                </ul>
+                            </div>
+                            <a class="button" onclick="questão1()">Responder</a>
+                        </section>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="card">
+                        <section class="series">
+                            <h1>Questão 2:</h1>
+                            <span>Quem fica com Ted no último episódio de <strong>"How I Met your Mother"</strong>?</span>
+
+                            <div class="list_options">
+                                <ul class="options">
+                                    <li><input type="radio" value="Tracy" /> Tracy</li>
+                                    <li><input type="radio" value="Lily" /> Lily</li>
+                                    <li><input type="radio" value="Robin" /> Robin</li>
+                                </ul>
+                            </div>
+                            <a class="button" onclick="questão2()">Responder</a>
+                        </section>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="card">
+                        <section class="series">
+                            <h1>Questão 3:</h1>
+                            <span>Quem planejou o assalto em <strong>"La Casa De Papel"</strong>?</span>
+
+                            <div class="list_options">
+                                <ul class="options">
+                                    <li><input type="radio" value="Nairobi" /> Nairobi</li>
+                                    <li><input type="radio" value="Professor" /> Professor</li>
+                                    <li><input type="radio" value="Berlin" /> Berlin</li>
+                                </ul>
+                            </div>
+                            <a class="button" onclick="questão3()">Responder</a>
+                        </section>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="restart">
+            <a class="button" target="_blank" href='escolha.html'>Começar de novo</a>
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

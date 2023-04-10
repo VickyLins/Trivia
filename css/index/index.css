@@ -1,0 +1,107 @@
+/****************************
+            CARD  
+****************************/
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+input[type="text"] {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 2rem;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+    background-color: #f7faff;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+.card {
+    background: #ffff;
+    max-width: 416px;
+    border-radius: 1rem;
+}
+
+.card_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+.card_body h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--dark-blue);
+}
+
+.card_body span {
+    color: var(--desaturated-blue);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+
+.sobre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card_informations {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    background: var(--very-pale-blue);
+    border-radius: 0.8rem;
+    padding: 1.5rem 1rem;
+    margin: 2rem 0;
+}
+
+
+.button {
+    cursor: pointer;
+    background: var(--bright-blue);
+    color: #ffff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 0.8rem;
+    margin-bottom: 1.5rem;
+    /* VALORES DO BOX-SHADOW: 
+      * O primeiro valor é o quanto a sombra se desloca no eixo x;
+      * O segundo é no eixo y;
+      * O terceiro é o blur, ou seja, o desfoque da sombra;
+    */
+    box-shadow: 0px 20px 15px rgba(56, 42, 255, 0.2);
+}
+
+.button:hover {
+    background: #7063f5;
+}

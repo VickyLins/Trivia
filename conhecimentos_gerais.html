@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Quizz Trivia -  CG</title>
+  <link rel="stylesheet" href="css/conhecimentos_gerais/conhecimentos_gerais.css">
+  <link rel="stylesheet" href="css/global/global.css">
+  <link rel="stylesheet" href="css/index/index.css">
+  <script>
+    function questão1() {
+      alert('A resposta certa é Descartes');
+    }
+  </script>
+
+  <script>
+    function questão2() {
+      alert('A resposta certa é 7');
+    }
+  </script>
+
+  <script>
+    function questão3() {
+      alert('A resposta certa é Elefante Africano');
+    }
+  </script>
+</head>
+
+<body>
+  <main id="conhecimentos_gerais">
+    <h1 id="nome_Storage"></h1>
+    <h2 class="conhecimento_title">Conhecimentos Gerais</h2>
+    <div>
+      <ul class="list_questions">
+        <li>
+          <div class="card">
+            <section class="conhecimentos_gerais">
+              <h1>Questão 1:</h1>
+              <span>De quem é a famosa frase <strong>"Penso, logo existo"?</strong></span>
+
+                <div class="list_options">
+                  <ul class="options">
+                    <li><input type="radio" value="Socrates"/> Sócrates</li>
+                    <li><input type="radio" value="Platao"/> Platão</li>
+                    <li><input type="radio" value="Descartes"/> Descartes</li>
+                  </ul>
+              </div>
+              <a class="button" onclick="questão1()">Responder</a>
+            </section>
+          </div>
+        </li>
+
+        <li>
+          <div class="card">
+            <section class="conhecimentos_gerais">
+              <h1>Questão 2:</h1>
+              <span>Qual o número mínimo de jogadores em cada time numa partida de futebol?</span>
+
+              <div class="list_options">
+                  <ul class="options">
+                    <li><input type="radio" value="9"/> 9</li>
+                    <li><input type="radio" value="11"/> 11</li>
+                    <li><input type="radio" value="7"/> 7</li>
+                  </ul>
+              </div>
+              <a class="button" onclick="questão2()">Responder</a>
+            </section>
+          </div>
+        </li>
+
+        <li>
+          <div class="card">
+            <section class="conhecimentos_gerais">
+              <h1>Questão 3:</h1>
+              <span>Qual o maior animal terrestre do mundo?</span>
+
+              <div class="list_options">
+                  <ul class="options">
+                    <li><input type="radio" value="Baleia Azul"/> Baleia azul</li>
+                    <li><input type="radio" value="Elefante africano"/> Elefante africano</li>
+                    <li><input type="radio" value="Tubarao Branco"/> Tubarão Branco</li>
+                  </ul>
+              </div>
+              <a class="button" onclick="questão3()">Responder</a>
+            </section>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+
+    <div class="restart">
+      <a class="button" target="_blank" href='escolha.html'>Começar de novo</a> 
+    </div>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

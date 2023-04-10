@@ -1,0 +1,42 @@
+#series {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.series{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+    height: 350px;
+    width: 400px;
+}
+
+.series h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--dark-blue);
+}
+
+.series span {
+    color: var(--desaturated-blue);
+    text-align: center;
+}
+
+.series {
+    width: 400px;
+}
+
+.serie_informations {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    background: var(--very-pale-blue);
+    border-radius: 0.8rem;
+    padding: 1.5rem 1rem;
+    margin: 2rem 0;
+}
